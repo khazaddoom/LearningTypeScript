@@ -1,3 +1,3 @@
-async function hello() {
-    console.log('Saying Hello....')
-}
+type Style = number | string | undefined;
+
+const font: Style = ""
