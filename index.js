@@ -1,9 +1,9 @@
 // type Style = number | string | undefined;
 // const font: Style = ""
-const memoizee = require('memoizee');
-// import { memoizee } from 'memoizee';
+// const memoizee = require('memoizee');
+import * as memoizee from 'memoizee';
 function add(a, b) {
-    console.log(`add is called on ${a} and ${b}`);
+    console.log('add is called');
     return a + b;
 }
 const memoizedAdd = memoizee(add);

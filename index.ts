@@ -2,9 +2,9 @@
 
 // const font: Style = ""
 
-const memoizee = require('memoizee');
+// const memoizee = require('memoizee');
 
-// import { memoizee } from 'memoizee';
+import * as memoizee from 'memoizee';
 
 
 function add(a: number, b: number): number {
